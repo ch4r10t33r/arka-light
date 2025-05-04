@@ -1,0 +1,2 @@
+Pin<Box<dyn Future<Output = result::Result<PaymasterResponse, ErrorObject<'static>>> + Send>>
+Pin<Box<dyn Future<Output = std::result::Result<PaymasterResponse, ErrorObject<'static>>> + Send>>

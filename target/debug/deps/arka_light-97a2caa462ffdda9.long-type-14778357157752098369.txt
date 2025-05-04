@@ -1,0 +1,2 @@
+Pin<Box<dyn Future<Output = result::Result<ValidationResult, ErrorObject<'static>>> + Send>>
+Pin<Box<dyn Future<Output = std::result::Result<ValidationResult, ErrorObject<'static>>> + Send>>
